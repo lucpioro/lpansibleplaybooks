@@ -1,0 +1,9 @@
+---
+- name: Creating Users
+  user:
+    name: "{{ username }}"
+    password: "{{ 'toto' | password_hash('sha512') }}"
+    comment: "{{ usercomment }}"
+    shell: /bin/bash
+    home: /home/{{ username }}
+    
