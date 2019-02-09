@@ -1,1 +1,3 @@
 ---
+username: demouser
+usercomment : "user added by ansible"
