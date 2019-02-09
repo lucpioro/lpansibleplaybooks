@@ -1,3 +1,4 @@
 ---
 username: demouser
 usercomment: "user added by ansible"
+filename: "/tmp/filecreatedbyansible"
