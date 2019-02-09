@@ -2,10 +2,6 @@
 
 - hosts: webservers
   gather_facts: false
-  tasks:
-    - ping:
-
-- hosts: webservers
   become: yes
   tasks:
     - name: install Apache server
