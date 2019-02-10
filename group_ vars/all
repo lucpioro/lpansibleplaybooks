@@ -2,4 +2,4 @@
 username: demouser
 usercomment: "user added by ansible"
 filename: "/tmp/filecreatedbyansible"
-httpdversion: "2.4.6-80.el7_5.1"
+httpdversion: "httpd-2.4.6-80.el7_5.1.x86_64"
